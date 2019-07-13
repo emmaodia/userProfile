@@ -1,0 +1,35 @@
+{
+  "name": "coope-api",
+  "version": "1.0.0",
+  "description": "A platform to automate the co-operative banking processes",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon ./server.js",
+    "devstart": "nodemon ./server.js"
+  },
+  "keywords": [
+    "fintech",
+    "saas"
+  ],
+  "author": "Emmanuel Oaikhenan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "heroku-cli": "^7.0.9",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.2",
+    "nodemailer": "^6.2.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "validate.js": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
